@@ -2,6 +2,13 @@
 
 An end to end system to map input sequences to output sequences of different lengths. Here trained to develop a chatbot model. A ‘query’ is input to the GRU RNN which encodes the input to a fixed dimension vector, this is in turn input into a decoder GRU RNN which outputs the ‘response’.
 
+Trained on Cornell Movie-Dialogs data:
+
+![alt text](https://github.com/olliejday/Sequence-to-sequence-chatbot/blob/master/movie_chat.gif "Chatbot trained on Cornell Movie-Dialogs data")
+
+Trained on my Facebook Message data:
+
+![alt text](https://github.com/olliejday/Sequence-to-sequence-chatbot/blob/master/message_chat.gif "Chatbot trained on my Facebook Message data")
 
 
 Implemented in Tensorflow, inspired by [2].
